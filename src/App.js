@@ -40,8 +40,8 @@ const mensagem = [
 function App() {
   return (
     <>
-      <Section title={mensagem[0].title} text={mensagem[0].conteudo} />
-      <Container>
+      <Section title={mensagem[1].title} text={mensagem[1].conteudo} />
+      <Container className="my-3">
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <CustomCard
             title={""}
@@ -67,6 +67,99 @@ function App() {
             title={""}
             text={""}
             src={"./image/PrimeiroEncontro/PrimeiroEncontro05.jpg"}
+          />
+        </Row>
+      </Container>
+
+      <Section title={mensagem[2].title} text={mensagem[2].conteudo} />
+      <Container className="my-3">
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco01.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco02.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco03.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco04.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco05.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco06.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco07.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Comeco/Comeco08.jpg"}
+          />
+        </Row>
+      </Container>
+
+      <Section title={mensagem[3].title} text={mensagem[3].conteudo} />
+      <Container className="my-3">
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/JantarRomantico/JantarRomantico01.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/JantarRomantico/JantarRomantico02.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/JantarRomantico/JantarRomantico03.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/JantarRomantico/JantarRomantico04.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/JantarRomantico/JantarRomantico05.jpg"}
+          />
+        </Row>
+      </Container>
+
+      <Section title={mensagem[4].title} text={mensagem[5].conteudo} />
+      <Container className="my-3">
+        <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Viagem/Viagem02.jpg"}
+          />
+          <CustomCard
+            title={""}
+            text={""}
+            src={"./image/Viagem/Viagem03.jpg"}
           />
         </Row>
       </Container>
