@@ -1,0 +1,10 @@
+body {
+    /* background-color: #FFB3D1; */
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.section-background {
+    background: rgb(255,137,187);
+    background: linear-gradient(0deg, rgba(255,137,187,1) 16%, rgba(255,67,158,0.7) 100%);
+}
