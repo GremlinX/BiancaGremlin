@@ -40,8 +40,25 @@ const mensagem = [
 function App() {
   return (
     <>
+      <video 
+      // style={{
+      //   objectFit: 'cover',
+      //   width: '100vw',
+      //   height: '100vh',
+      //   position: 'fixed',
+      //   top: '0',
+      //   left: '0'
+      // }}
+      style={{
+        objectFit: 'cover',
+        height: '100vh',
+        width: '100vw',
+      }} autoPlay loop playsInline muted>
+        <source src="./image/wallpaper02.mp4" type="video/mp4"/>
+      </video>
+
       <Section title={mensagem[1].title} text={mensagem[1].conteudo} />
-      <Container className="my-3">
+      <Container>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <CustomCard
             title={""}
@@ -72,7 +89,7 @@ function App() {
       </Container>
 
       <Section title={mensagem[2].title} text={mensagem[2].conteudo} />
-      <Container className="my-3">
+      <Container>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <CustomCard
             title={""}
@@ -118,7 +135,7 @@ function App() {
       </Container>
 
       <Section title={mensagem[3].title} text={mensagem[3].conteudo} />
-      <Container className="my-3">
+      <Container>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <CustomCard
             title={""}
@@ -149,7 +166,7 @@ function App() {
       </Container>
 
       <Section title={mensagem[4].title} text={mensagem[5].conteudo} />
-      <Container className="my-3">
+      <Container>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <CustomCard
             title={""}

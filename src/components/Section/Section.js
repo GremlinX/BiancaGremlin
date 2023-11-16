@@ -1,16 +1,19 @@
 import "./Section.css";
+import { Container, Row } from "react-bootstrap";
 
 export default function Section({ title, text }) {
   return (
     <app-section>
-      <div className="section-background">
-        <section className="p-3">
-          <div className="row col-md-6 mx-auto text-center">
-            <h1>{title}</h1>
-            <p>{text}</p>
-          </div>
-        </section>
-      </div>
+      <Container className="rounded section-background">
+        <Row className="gx-3">
+          <section className="p-3">
+            <div className="text-center">
+              <h1>{title}</h1>
+              <p>{text}</p>
+            </div>
+          </section>
+        </Row>
+      </Container>
     </app-section>
   );
 }
