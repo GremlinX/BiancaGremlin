@@ -2,6 +2,7 @@ import "./App.css";
 import { Container, Row } from "react-bootstrap";
 import CustomCard from "./components/Card/Card";
 import Section from "./components/Section/Section";
+import Cover from "./components/Cover/Cover"
 
 const mensagem = [
   {
@@ -40,22 +41,7 @@ const mensagem = [
 function App() {
   return (
     <>
-      <video 
-      // style={{
-      //   objectFit: 'cover',
-      //   width: '100vw',
-      //   height: '100vh',
-      //   position: 'fixed',
-      //   top: '0',
-      //   left: '0'
-      // }}
-      style={{
-        objectFit: 'cover',
-        height: '100vh',
-        width: '100vw',
-      }} autoPlay loop playsInline muted>
-        <source src="./image/wallpaper02.mp4" type="video/mp4"/>
-      </video>
+      <Cover />
 
       <Section title={mensagem[1].title} text={mensagem[1].conteudo} />
       <Container>
