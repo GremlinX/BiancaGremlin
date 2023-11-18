@@ -5,6 +5,10 @@ body {
 }
 
 .section-background {
-    background: rgb(255, 137, 187);
-    background: linear-gradient(0deg, rgba(255, 137, 187, 1) 16%, rgba(255, 67, 158, 0.7) 100%);
+    background: linear-gradient(
+        0deg, 
+        rgb(249, 163, 203) 0%,
+        rgb(255, 206, 230) 50%,
+        rgb(249, 163, 203) 100%
+    );
 }

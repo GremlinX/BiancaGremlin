@@ -1,171 +1,39 @@
 import "./App.css";
-import { Container, Row } from "react-bootstrap";
-import CustomCard from "./components/Card/Card";
-import Section from "./components/Section/Section";
-import Cover from "./components/Cover/Cover"
+import Cover from "./components/Cover/Cover";
+import Gallery from "./components/Gallery/Gallery";
 
-const mensagem = [
-  {
-    id: 0,
-    title: "Feliz 1 ano de namoro",
-    conteudo:
-      "Há 5 anos atrás, eu conheci uma garota incrível. E hoje a̶h̶a̶m̶, s̶ó h̶o̶j̶e̶ d̶i̶s̶s̶e̶ e̶l̶e̶, eu sou apaixonado por ela.",
-  },
-  {
-    id: 1,
-    title: "Primeiro encontro",
-    conteudo:
-      "Mesmo indo aí pra curtir e conhecer todo mundo, acabou que nossos sentimentos queriam mais que manter uma amizade antiga.",
-  },
-  {
-    id: 2,
-    title: "Onde tudo começou (02/02/2022)",
-    conteudo:
-      '"Ah não, relaxa! Eu vou te pedir em namoro então não se preocupe". Bianca: "Vamos namorar?"',
-  },
-  {
-    id: 3,
-    title: "Primeiro jantar romântico",
-    conteudo:
-      "Foi o dia que cê ficou menos tempo e que eu tinha que sair correndo do trabalho e pedalar / caminhar feito louco só pra poder aproveitar cada segundinho que eu tinha com você.",
-  },
-  {
-    id: 4,
-    title: "Primeira Viagem",
-    conteudo:
-      "Também foi um tempo bem curto mas a gente fez tanta coisa que pareceu ter durado várias semanas.",
-  },
-  { id: 5, title: "Feliz 1 ano, Bianca!", conteudo: "- - -" },
+var imagesArray = [
+  { id: 0, src: "./image/aniversario1.jpg", alt: "Aniversário 1 ano" },
+  { id: 1, src: "./image/aniversario2.jpg", alt: "Aniversário 1 ano" },
+  { id: 2, src: "./image/aniversario3.jpg", alt: "Aniversário 1 ano" },
+  { id: 3, src: "./image/aniversario4.jpg", alt: "Aniversário 1 ano" },
+  { id: 4, src: "./image/aniversario5.jpg", alt: "Aniversário 1 ano" },
+  { id: 5, src: "./image/aniversario6.jpg", alt: "Aniversário 1 ano" },
+  { id: 6, src: "./image/aniversario7.jpg", alt: "Aniversário 1 ano" },
+  { id: 7, src: "./image/aniversario8.jpg", alt: "Aniversário 1 ano" },
+  { id: 8, src: "./image/aniversario9.jpg", alt: "Aniversário 1 ano" },
+  { id: 9, src: "./image/aniversario10.jpg", alt: "Aniversário 1 ano" },
+  { id: 10, src: "./image/aniversario11.jpg", alt: "Aniversário 1 ano" },
+  { id: 11, src: "./image/aniversario12.jpg", alt: "Aniversário 1 ano" },
+  { id: 12, src: "./image/aniversario13.jpg", alt: "Aniversário 1 ano" },
+  { id: 13, src: "./image/aniversario14.jpg", alt: "Aniversário 1 ano" },
+  { id: 14, src: "./image/aniversario15.jpg", alt: "Aniversário 1 ano" },
+  { id: 15, src: "./image/aniversario16.jpg", alt: "Aniversário 1 ano" },
+  { id: 16, src: "./image/aniversario17.jpg", alt: "Aniversário 1 ano" },
+  { id: 17, src: "./image/aniversario18.jpg", alt: "Aniversário 1 ano" },
+  { id: 18, src: "./image/aniversario19.jpg", alt: "Aniversário 1 ano" },
+  { id: 19, src: "./image/aniversario20.jpg", alt: "Aniversário 1 ano" },
 ];
+
+var videosArray = [];
 
 function App() {
   return (
     <>
       <Cover />
-
-      <Section title={mensagem[1].title} text={mensagem[1].conteudo} />
-      <Container>
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/PrimeiroEncontro/PrimeiroEncontro01.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/PrimeiroEncontro/PrimeiroEncontro02.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/PrimeiroEncontro/PrimeiroEncontro03.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/PrimeiroEncontro/PrimeiroEncontro04.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/PrimeiroEncontro/PrimeiroEncontro05.jpg"}
-          />
-        </Row>
-      </Container>
-
-      <Section title={mensagem[2].title} text={mensagem[2].conteudo} />
-      <Container>
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco01.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco02.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco03.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco04.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco05.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco06.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco07.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Comeco/Comeco08.jpg"}
-          />
-        </Row>
-      </Container>
-
-      <Section title={mensagem[3].title} text={mensagem[3].conteudo} />
-      <Container>
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/JantarRomantico/JantarRomantico01.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/JantarRomantico/JantarRomantico02.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/JantarRomantico/JantarRomantico03.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/JantarRomantico/JantarRomantico04.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/JantarRomantico/JantarRomantico05.jpg"}
-          />
-        </Row>
-      </Container>
-
-      <Section title={mensagem[4].title} text={mensagem[5].conteudo} />
-      <Container>
-        <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Viagem/Viagem02.jpg"}
-          />
-          <CustomCard
-            title={""}
-            text={""}
-            src={"./image/Viagem/Viagem03.jpg"}
-          />
-        </Row>
-      </Container>
+      <div className="section-background">
+        <Gallery images={imagesArray} videos={videosArray} />
+      </div>
     </>
   );
 }
