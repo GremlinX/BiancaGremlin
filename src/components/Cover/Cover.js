@@ -7,6 +7,20 @@ import "./Cover.css";
 //       behavior: "smooth",
 //     });
 // };
+const handleClick = () => {
+  // Encontrar os elementos @Section usando uma classe (substitua 'section-background' pela classe real do seu componente @Section)
+  const sectionElements = document.getElementsByClassName('section-background');
+
+  // Verificar se algum elemento foi encontrado
+  if (sectionElements.length > 0) {
+    // Acessar o primeiro elemento da lista
+    const firstSectionElement = sectionElements[0];
+
+    // Rolar para o elemento @Section
+    firstSectionElement.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 
 export default function Cover() {
 
@@ -25,7 +39,7 @@ export default function Cover() {
         </p>
         <p>Te amo, Bianca! &#129655;</p>
       </div>
-      <div onClick={null}>
+      <div onClick={handleClick}>
         <i className="fas fa-chevron-down fa-lg down-arrow"></i>
       </div>
     </div>
