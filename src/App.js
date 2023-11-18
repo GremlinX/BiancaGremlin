@@ -30,8 +30,21 @@ var videosArray = [];
 function App() {
   return (
     <>
-      <Cover />
+      <Cover 
+        style={null}
+        title="FELIZ 1 ANO DE NAMORO"
+        message1="Juntos escolhemos viver o amor, mesmo de longe, e juntos acertamos na escolha."
+        message2="Espero que a gente ainda possa viver muitos primeiros juntos!"
+        message3="Te amo, Bianca! &#129655;"
+      />
       <div className="section-background">
+        <Cover 
+          style={{top: "calc(100vh + 50%)", position: "relative"}}
+          title=""
+          message1=""
+          message2=""
+          message3=""
+        />
         <Gallery images={imagesArray} videos={videosArray} />
       </div>
     </>
