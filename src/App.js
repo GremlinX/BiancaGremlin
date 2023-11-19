@@ -38,8 +38,16 @@ function App() {
         message2="Espero que a gente ainda possa viver muitos primeiros juntos!"
         message3="Te amo, Bianca! &#129655;"
         arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
+        selector="pinkish-static"
       >
-        <Video src="./image/wallpaper02.mp4" />
+        <Video
+          src="./image/wallpaper02.mp4"
+          autoPlay={true}
+          controls={false}
+          playsInline={true}
+          loop={true}
+          muted={true}
+        />
       </Cover>
       <div className="pinkish-static">
         <Cover
@@ -47,7 +55,8 @@ function App() {
           title="UM PEQUENO PRESENTE"
           message1="Eu queria poder te dar um presente feito por mim então fiz um pequeno app que é o que sei fazer de melhor."
           message2="Aproveite a seleção de imagens desse casal mais lindo!"
-          message3=""
+          arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
+          selector="pinkish-linear-gradient"
         />
       </div>
       <div className="pinkish-linear-gradient">
@@ -56,13 +65,21 @@ function App() {
       <div className="pinkish-static">
         <Cover
           style={{ top: "calc(100vh + 50%)", position: "relative" }}
-          title=""
-          message1="É claro que não podia faltar os vídeos."
-          message2=""
-          message3=""
+          title="E É CLARO..."
+          message1="...que não podia faltar os vídeos."
+          arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
+          selector="video"
         />
       </div>
-      <Video src="" />
+      <Video
+        className="video"
+        src="./video/video1.mp4"
+        autoPlay={true}
+        controls={true}
+        playsInline={true}
+        loop={false}
+        muted={false}
+      />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import "./Cover.css";
 
-const handleClick = () => {
-  const sectionElements = document.getElementsByClassName("pinkish-static");
+const handleClick = (selector) => {
+  const sectionElements = document.getElementsByClassName(selector);
 
   // Verificar se algum elemento foi encontrado...
   if (sectionElements.length > 0) {
@@ -27,7 +27,7 @@ export default function Cover(props) {
           </p>
           <p>{props.message3}</p>
         </div>
-        <div onClick={handleClick}>
+        <div onClick={() => handleClick(props.selector)}>
           {props.arrow}
         </div>
       </div>
