@@ -4,11 +4,15 @@ body {
     overflow-x: hidden;
 }
 
-.section-background {
+.pinkish-linear-gradient {
     background: linear-gradient(
         0deg, 
         rgb(249, 163, 203) 0%,
         rgb(255, 206, 230) 50%,
         rgb(249, 163, 203) 100%
     );
+}
+
+.pinkish-static {
+    background: rgb(255, 206, 230);
 }

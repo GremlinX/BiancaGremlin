@@ -1,6 +1,7 @@
 import "./App.css";
 import Cover from "./components/Cover/Cover";
 import Gallery from "./components/Gallery/Gallery";
+import Video from "./components/Video/Video";
 
 var imagesArray = [
   { id: 0, src: "./image/aniversario1.jpg", alt: "Aniversário 1 ano" },
@@ -30,23 +31,38 @@ var videosArray = [];
 function App() {
   return (
     <>
-      <Cover 
+      <Cover
         style={null}
         title="FELIZ 1 ANO DE NAMORO"
         message1="Juntos escolhemos viver o amor, mesmo de longe, e juntos acertamos na escolha."
         message2="Espero que a gente ainda possa viver muitos primeiros juntos!"
         message3="Te amo, Bianca! &#129655;"
-      />
-      <div className="section-background">
-        <Cover 
-          style={{top: "calc(100vh + 50%)", position: "relative"}}
+        arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
+      >
+        <Video src="./image/wallpaper02.mp4" />
+      </Cover>
+      <div className="pinkish-static">
+        <Cover
+          style={{ top: "calc(100vh + 50%)", position: "relative" }}
+          title="UM PEQUENO PRESENTE"
+          message1="Eu queria poder te dar um presente feito por mim então fiz um pequeno app que é o que sei fazer de melhor."
+          message2="Aproveite a seleção de imagens desse casal mais lindo!"
+          message3=""
+        />
+      </div>
+      <div className="pinkish-linear-gradient">
+        <Gallery images={imagesArray} videos={videosArray} />
+      </div>
+      <div className="pinkish-static">
+        <Cover
+          style={{ top: "calc(100vh + 50%)", position: "relative" }}
           title=""
-          message1=""
+          message1="É claro que não podia faltar os vídeos."
           message2=""
           message3=""
         />
-        <Gallery images={imagesArray} videos={videosArray} />
       </div>
+      <Video src="" />
     </>
   );
 }
