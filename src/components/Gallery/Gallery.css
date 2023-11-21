@@ -1,6 +1,7 @@
 .gallery-header {
     text-align: center;
-    color: rgba(255, 67, 158, 0.7);
-    background-color: #fafafa;
+    color: #fafafa;
     border-radius: 0.4rem;
+    padding: 2rem;
+    text-shadow: black 1px 1px 20px;
 }
