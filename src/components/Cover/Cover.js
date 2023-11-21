@@ -27,9 +27,7 @@ export default function Cover(props) {
           </p>
           <p>{props.message3}</p>
         </div>
-        <div onClick={() => handleClick(props.selector)}>
-          {props.arrow}
-        </div>
+        <div onClick={() => handleClick(props.selector)}>{props.arrow}</div>
       </div>
     </app-cover>
   );

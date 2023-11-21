@@ -1,11 +1,13 @@
 import { Card, Col } from "react-bootstrap";
 
-export default function CustomCard({ title, text, src }) {
+export default function CustomCard({ src }) {
   return (
-    <Col style={{
-      marginTop: '1rem',
-      marginBottom: '1rem'
-    }}>
+    <Col
+      style={{
+        marginTop: "1rem",
+        marginBottom: "1rem",
+      }}
+    >
       <Card
         style={{
           borderWidth: "0",
@@ -17,13 +19,11 @@ export default function CustomCard({ title, text, src }) {
             width: "100%",
             height: "500px",
             objectFit: "cover",
-            boxShadow:
-              "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px",
+            boxShadow: "rgba(0, 0, 0, 0.5) 0px 0px 0px 2px",
             borderRadius: "0.4rem",
           }}
-          variant="top"
           src={src}
-          alt="TESTE"
+          alt="Bibi e Gremlin"
         />
       </Card>
     </Col>
