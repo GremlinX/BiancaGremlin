@@ -12,8 +12,6 @@
     object-fit: cover;
 }
 
-
-
 .cover-content {
     position: absolute;
     margin: auto;
@@ -31,6 +29,7 @@
 .cover-content>p {
     margin: 0.5rem 1rem 0 1rem;
     color: rgba(255, 67, 158, 0.7);
+    padding: 0.5rem;
 }
 
 .down-arrow {

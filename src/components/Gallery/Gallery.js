@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import CustomCard from "../Card/Card";
 import "./Gallery.css";
 

@@ -64,9 +64,11 @@ function App() {
       </div>
       <div className="pinkish-static">
         <Cover
-          style={{ top: "calc(100vh + 50%)", position: "relative" }}
-          title="E É CLARO..."
-          message1="...que não podia faltar os vídeos."
+          style={{ top: "calc(100vh + 50%)", position: "relative"}}
+          title="QUE SEJA SÓ O COMEÇO DE UMA LONGA HISTÓRIA"
+          // message1="Se tem uma pessoa que me faz bem e feliz nessa vida é você, Bianca."
+          // message2="É fácil amar você, mesmo de longe, saber que tenho você na minha vida aquece meu coração todos os dias."
+          message1="Por você eu vou superar minhas limitações. Por nós eu vou de continuar escrevendo nossa história de muitas páginas. Um livro enorme que faria o eu do passado se assustar com tantas páginas. Por você eu juro, se você quiser!"
           arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
           selector="video"
         />
