@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BiancaGremlin/static/css/main.027d72f4.css",
+    "main.js": "/BiancaGremlin/static/js/main.ecc0645f.js",
+    "index.html": "/BiancaGremlin/index.html",
+    "main.027d72f4.css.map": "/BiancaGremlin/static/css/main.027d72f4.css.map",
+    "main.ecc0645f.js.map": "/BiancaGremlin/static/js/main.ecc0645f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.027d72f4.css",
+    "static/js/main.ecc0645f.js"
+  ]
+}
