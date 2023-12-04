@@ -33,10 +33,11 @@ function App() {
     <>
       <Cover
         style={null}
-        title="FELIZ 1 ANO DE NAMORO"
-        message1="Juntos escolhemos viver o amor, mesmo de longe, e juntos acertamos na escolha."
-        message2="Espero que a gente ainda possa viver muitos primeiros juntos!"
-        message3="Te amo, Bianca! &#129655;"
+        title="FELIZ 1 ANO DE NAMORO!"
+        message1="Desde o primeiro primeiro encontro ao primeiro beijo."
+        message2='Todos os "primeiros" foram especiais que está eternizado na memória.'
+        message3='Mas ainda quero viver muitos "primeiros" momentos ao seu lado.'
+        message4="Eu te amo, Bianca! &#129655;"
         arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
         selector="pinkish-static"
       >
@@ -53,8 +54,9 @@ function App() {
         <Cover
           style={{ top: "calc(100vh + 50%)", position: "relative" }}
           title="UM PEQUENO PRESENTE"
-          message1="Eu queria poder te dar um presente feito por mim então fiz um pequeno app que é o que sei fazer de melhor."
-          message2="Aproveite a seleção de imagens desse casal mais lindo!"
+          message1="Eu queria poder te dar um presente feito por mim."
+          message2="Então fiz um pequeno app que é o que sei fazer de melhor."
+          message3="Aproveite a seleção de imagens desse casal mais lindo!"
           arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
           selector="pinkish-linear-gradient"
         />
@@ -66,9 +68,10 @@ function App() {
         <Cover
           style={{ top: "calc(100vh + 50%)", position: "relative"}}
           title="QUE SEJA SÓ O COMEÇO DE UMA LONGA HISTÓRIA"
-          // message1="Se tem uma pessoa que me faz bem e feliz nessa vida é você, Bianca."
-          // message2="É fácil amar você, mesmo de longe, saber que tenho você na minha vida aquece meu coração todos os dias."
-          message1="Por você eu vou superar minhas limitações. Por nós eu vou de continuar escrevendo nossa história de muitas páginas. Um livro enorme que faria o eu do passado se assustar com tantas páginas. Por você eu juro, se você quiser!"
+          message1="Por você eu vou superar minhas limitações."
+          message2="Por nós eu vou continuar escrevendo nossa história de muitas páginas."
+          message3="Um livro enorme que faria o eu do passado se assustar com tantas páginas."
+          message4="Por você eu juro, se você quiser!"
           arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
           selector="video"
         />
@@ -76,11 +79,11 @@ function App() {
       <Video
         className="video"
         src="./video/video1.mp4"
-        autoPlay={true}
+        autoPlay={false}
         controls={true}
         playsInline={true}
         loop={false}
-        muted={false}
+        muted={true}
       />
     </>
   );

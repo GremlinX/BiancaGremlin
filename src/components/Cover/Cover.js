@@ -23,6 +23,7 @@ export default function Cover(props) {
           <p>{props.message1}</p>
           <p>{props.message2}</p>
           <p>{props.message3}</p>
+          <p>{props.message4}</p>
         </div>
         <div onClick={() => handleClick(props.selector)}>{props.arrow}</div>
       </div>
