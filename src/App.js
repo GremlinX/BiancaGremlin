@@ -34,8 +34,8 @@ function App() {
       <Cover
         style={null}
         title="FELIZ 1 ANO DE NAMORO!"
-        message1="Desde o primeiro primeiro encontro ao primeiro beijo."
-        message2='Todos os "primeiros" foram especiais que está eternizado na memória.'
+        message1="Desde o primeiro encontro ao primeiro beijo."
+        message2='Todos os "primeiros" foram especiais que estão eternizados na memória.'
         message3='Mas ainda quero viver muitos "primeiros" momentos ao seu lado.'
         message4="Eu te amo, Bianca! &#129655;"
         arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
