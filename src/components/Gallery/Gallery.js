@@ -7,7 +7,7 @@ export default function Gallery(props) {
     <app-gallery>
       <Container className="pt-4 pb-5">
         <div className="gallery-header">
-          <h1>PARABÉNS PARA NÓS!</h1>
+          <h1 className="rainbowText">PARABÉNS PARA NÓS!</h1>
         </div>
         <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3">
           {props.images.map((e, i) => (

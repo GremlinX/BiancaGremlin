@@ -72,19 +72,8 @@ function App() {
           message2="Por nós eu vou continuar escrevendo nossa história de muitas páginas."
           message3="Um livro enorme que faria o eu do passado se assustar com tantas páginas."
           message4="Por você eu juro, se você quiser!"
-          arrow={<i className="fas fa-chevron-down fa-lg down-arrow"></i>}
-          selector="video"
         />
       </div>
-      <Video
-        className="video"
-        src="./video/video1.mp4"
-        autoPlay={false}
-        controls={true}
-        playsInline={true}
-        loop={false}
-        muted={true}
-      />
     </>
   );
 }
