@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BiancaGremlin/static/css/main.027d72f4.css",
-    "main.js": "/BiancaGremlin/static/js/main.cb168f0e.js",
+    "main.js": "/BiancaGremlin/static/js/main.b42827a2.js",
     "index.html": "/BiancaGremlin/index.html",
     "main.027d72f4.css.map": "/BiancaGremlin/static/css/main.027d72f4.css.map",
-    "main.cb168f0e.js.map": "/BiancaGremlin/static/js/main.cb168f0e.js.map"
+    "main.b42827a2.js.map": "/BiancaGremlin/static/js/main.b42827a2.js.map"
   },
   "entrypoints": [
     "static/css/main.027d72f4.css",
-    "static/js/main.cb168f0e.js"
+    "static/js/main.b42827a2.js"
   ]
 }
